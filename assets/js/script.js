@@ -908,7 +908,7 @@ var googleMap = function googleMap() {
   function initMap() {
     var popupContent = '<p class="marker_content">Турция, Алания, Махмутлар. <br>Пр. Барбаросса,<br> CEBECI 8, офис 6.</p>',
       image = {
-        url: '../assets/img/theme/icons/map-marker.svg' // size: new google.maps.Size(49, 65),
+        url: 'assets/img/theme/icons/map-marker.svg' // size: new google.maps.Size(49, 65),
         // origin: new google.maps.Point(-3, 0),
         // anchor: new google.maps.Point(-40, 140)
 
