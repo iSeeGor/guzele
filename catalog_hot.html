@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="author name" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Guzel</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="format-detection" content="telephone=no">
+
+    <!--== favicon's  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest.html">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--== Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900&display=swap" rel="stylesheet">
+
+    <!--== Bootstrap Grid -->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap-grid.css" />
+    <link rel="stylesheet" href="css/app.css" />
+
+
+    <!--== Plugins -->
+    <link rel="stylesheet" href="assets/css/plugins/select2.css" />
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/plugins/lightgallery.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.css" />
+    <!-- <link rel="stylesheet" href="assets/css/plugins/aos.css" />
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/plugins/animate.css" />
+    <link rel="stylesheet" href="assets/css/plugins/simplebar.css" />
+ 
+     -->
+
+    <!--== CSS main style -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!--== CSS @media  -->
+    <link rel="stylesheet" href="assets/css/media.css" />
+
+     <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="assets/css/ie.css" />
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!--== Google Map  -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnmv8rDSzIL4RVE5EBt6Kt4hqdFXU2mA4" async defer></script>
+    
+</head>    
+
+<body>
+
+<!--== Site -->
+<div class="site">
+        <div class="mobile-menu">
+    <i class="menu-bg middle"></i>
+
+    <div class="mobile-menu__container">
+        <header class="mobile-menu__header">
+
+            <div class="dropdown dropdown_phone js-dropdown">
+                <div class="dropdown__head">
+                    <span class="dropdown__head-item">
+                        <span class="country-flag"><img class="country-flag__icon" src="assets/img/theme/flags/turkey.svg" alt="Turkey Flag" width="30"></span>
+                        <a href="tel:+905305219399" class="phone-link link">+90 530 5219399</a>
+                    </span>
+                    <button class="dropdown__btn">
+                        <svg class="icon-arrow">
+                            <use xlink:href="assets/img/symbol/sprite.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="dropdown__body">
+                    <ul class="dropdown__list">
+                        <div class="dropdown__list-item current">
+                            <span class="country-flag"><img class="country-flag__icon" src="assets/img/theme/flags/turkey.svg" alt="Turkey Flag" width="30"></span>
+                            <a href="tel:+905305219399" class="phone-link link">+90 530 5219399</a>
+                        </div>
+                        <div class="dropdown__list-item">
+                            <span class="country-flag"><img class="country-flag__icon" src="assets/img/theme/flags/ukraine.svg" alt="Ukraine Flag" width="30"></span>
+                            <a href="tel:+380999999999" class="phone-link link">+380 99 999 9999</a>
+                        </div>
+                        <div class="dropdown__list-item">
+                            <span class="country-flag"><img class="country-flag__icon" src="assets/img/theme/flags/russia.svg" alt="Russia Flag" width="30"></span>
+                            <a href="tel:+79999999999" class="phone-link link">+79 99 999 9999</a>
+                        </div>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <a href="favorites.html" class="to-favorits ">
+                <svg class="icon-star">
+                    <use xlink:href="assets/img/symbol/sprite.svg#icon-star"></use>
+                </svg>
+                <span class="to-favorits__count">0</span>
+            </a>
+        </header>
+
+        <div class="mobile-menu__content">
+
+            <nav class="nav-menu">
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__item"><a href="index.html" class="nav-menu__link ">Главная</a></li>
+                    <li class="nav-menu__item"><a href="catalog/status=sale.html" class="nav-menu__link active">Каталог недвижимости</a></li>
+                    <li class="nav-menu__item"><a href="about-us.html" class="nav-menu__link ">О компании</a></li>
+                    <li class="nav-menu__item"><a href="reviews.html" class="nav-menu__link ">Отзывы</a></li>
+                    <li class="nav-menu__item"><a href="law.html" class="nav-menu__link ">Законодательство</a></li>
+                    <li class="nav-menu__item"><a href="question.html" class="nav-menu__link ">Вопрос-Ответ</a></li>
+                    <li class="nav-menu__item"><a href="blog.html" class="nav-menu__link ">Новости</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <footer class="mobile-menu__footer">
+
+            <a href="catalog_hot.html#m-backcall" class="site-header__backcall btn_top js-modal">Перезвоните мне</a>
+
+            <div class="site-header__language js-language">
+                                    <a href="/"/catalog_hot class="btn_top ">EN</a>
+                    <a  class="btn_top selected">RU</a>
+                            </div>
+
+        </footer>
+    </div>
+</div>
+    <!--== Site Header  -->
+<header class="site__header site-header">
+
+    <div class="container">
+
+        <div class="site-header__top">
+
+
+            <a href="catalog_hot.html#m-backcall" class="site-header__backcall btn_top js-modal">Перезвоните мне</a>
+
+            <div class="site-header__to-favorits">
+                <a href="favorites.html" class="to-favorits ">
+                    <svg class="icon-star">
+                        <use xlink:href="assets/img/symbol/sprite.svg#icon-star"></use>
+                    </svg>
+                    <span class="to-favorits__count">0</span>
+                </a>
+            </div>
+
+            <div class="site-header__language js-language">
+                                    <a href="/"/catalog_hot class="btn_top ">EN</a>
+                    <a  class="btn_top selected">RU</a>
+                            </div>
+
+
+        </div>
+
+
+        <div class="site-header__nav">
+
+
+            <div class="site-header__logo site-logo">
+                <a href="index.html" class="site-logo__link">
+                    <img class="site-logo__image" src="assets/img/theme/guzel-brand.svg" alt="Guzel Logo" width="116" >
+                </a>
+            </div>
+            
+            <nav class="site-header__nav-menu nav-menu">
+                <ul class="nav-menu__list">
+                <li class="nav-menu__item"><a href="index.html" class="nav-menu__link ">Главная</a></li>
+                    <li class="nav-menu__item"><a href="catalog/status=sale.html" class="nav-menu__link active">Каталог недвижимости</a></li>
+                    <li class="nav-menu__item"><a href="about-us.html" class="nav-menu__link ">О компании</a></li>
+                    <li class="nav-menu__item"><a href="reviews.html" class="nav-menu__link ">Отзывы</a></li>
+                    <li class="nav-menu__item"><a href="law.html" class="nav-menu__link ">Законодательство</a></li>
+                    <li class="nav-menu__item"><a href="question.html" class="nav-menu__link ">Вопрос-Ответ</a></li>
+                    <li class="nav-menu__item"><a href="blog.html" class="nav-menu__link ">Новости</a></li>
+                </ul>
+            </nav>
+
+            <div class="dropdown dropdown_phone js-dropdown">
+                <div class="dropdown__head">
+                    <span class="dropdown__head-item">
+                        <span class="country-flag"><img class="country-flag__icon" src="assets/img/theme/flags/turkey.svg" alt="Turkey Flag" width="30"></span>
+                        <a href="tel:+905305219399" class="phone-link link">+90 530 5219399</a>
+                    </span>
+                    <button class="dropdown__btn">
+                        <svg class="icon-arrow">
+                            <use xlink:href="assets/img/symbol/sprite.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="dropdown__body">
+                    <ul class="dropdown__list">
+                        <div class="dropdown__list-item current">
+                            <span class="country-flag"><img class="country-flag__icon" src="assets/img/theme/flags/turkey.svg" alt="Turkey Flag" width="30"></span>
+                            <a href="tel:+905305219399" class="phone-link link">+90 530 5219399</a>
+                        </div>
+                        <div class="dropdown__list-item">
+                            <span class="country-flag"><img class="country-flag__icon" src="assets/img/theme/flags/ukraine.svg" alt="Ukraine Flag" width="30"></span>
+                            <a href="tel:+380999999999" class="phone-link link">+380 99 999 9999</a>
+                        </div>
+                        <div class="dropdown__list-item">
+                            <span class="country-flag"><img class="country-flag__icon" src="assets/img/theme/flags/russia.svg" alt="Russia Flag" width="30"></span>
+                            <a href="tel:+79999999999" class="phone-link link">+79 99 999 9999</a>
+                        </div>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu-btn">
+                <span class="menu-trigger">
+                    <i class="menu-trigger-bar top"></i>
+                    <i class="menu-trigger-bar middle"></i>
+                    <i class="menu-trigger-bar bottom"></i>
+                </span>
+                <span class="close-trigger">
+                    <i class="close-trigger-bar left"></i>
+                    <i class="close-trigger-bar right"></i>
+                </span>
+            </div>
+
+
+        </div>
+
+    </div>
+</header>
+
+
+        <div class="preloader-main">
+    <div class="cssload-triangles">
+        <div class="cssload-tri cssload-invert"></div>
+        <div class="cssload-tri cssload-invert"></div>
+        <div class="cssload-tri"></div>
+        <div class="cssload-tri cssload-invert"></div>
+        <div class="cssload-tri cssload-invert"></div>
+        <div class="cssload-tri"></div>
+        <div class="cssload-tri cssload-invert"></div>
+        <div class="cssload-tri"></div>
+        <div class="cssload-tri cssload-invert"></div>
+    </div>
+</div>
+
+<style>
+    .preloader-main{
+        z-index: 10000;
+        display:none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #00459282;
+    }
+    .cssload-triangles {
+	transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+	height: 79px;
+	width: 88px;
+	position: absolute;
+	left: 50%;
+    top: 40%;
+    /* transform: rotate(60deg); */
+}
+
+.cssload-tri {
+	position: absolute;
+	animation: cssload-pulse 862.5ms ease-in infinite;
+		-o-animation: cssload-pulse 862.5ms ease-in infinite;
+		-ms-animation: cssload-pulse 862.5ms ease-in infinite;
+		-webkit-animation: cssload-pulse 862.5ms ease-in infinite;
+		-moz-animation: cssload-pulse 862.5ms ease-in infinite;
+	border-top: 26px solid #ff5436;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 0px;
+}
+.cssload-tri.cssload-invert {
+	border-top: 0px;
+	border-bottom: 26px solid #ff5436;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
+.cssload-tri:nth-child(1) {
+	left: 29px;
+}
+.cssload-tri:nth-child(2) {
+	left: 15px;
+	top: 26px;
+	animation-delay: -143.75ms;
+		-o-animation-delay: -143.75ms;
+		-ms-animation-delay: -143.75ms;
+		-webkit-animation-delay: -143.75ms;
+		-moz-animation-delay: -143.75ms;
+}
+.cssload-tri:nth-child(3) {
+	left: 29px;
+	top: 26px;
+}
+.cssload-tri:nth-child(4) {
+	left: 44px;
+	top: 26px;
+	animation-delay: -718.75ms;
+		-o-animation-delay: -718.75ms;
+		-ms-animation-delay: -718.75ms;
+		-webkit-animation-delay: -718.75ms;
+		-moz-animation-delay: -718.75ms;
+}
+.cssload-tri:nth-child(5) {
+	top: 53px;
+	animation-delay: -287.5ms;
+		-o-animation-delay: -287.5ms;
+		-ms-animation-delay: -287.5ms;
+		-webkit-animation-delay: -287.5ms;
+		-moz-animation-delay: -287.5ms;
+}
+.cssload-tri:nth-child(6) {
+	top: 53px;
+	left: 15px;
+	animation-delay: -287.5ms;
+		-o-animation-delay: -287.5ms;
+		-ms-animation-delay: -287.5ms;
+		-webkit-animation-delay: -287.5ms;
+		-moz-animation-delay: -287.5ms;
+}
+.cssload-tri:nth-child(7) {
+	top: 53px;
+	left: 29px;
+	animation-delay: -431.25ms;
+		-o-animation-delay: -431.25ms;
+		-ms-animation-delay: -431.25ms;
+		-webkit-animation-delay: -431.25ms;
+		-moz-animation-delay: -431.25ms;
+}
+.cssload-tri:nth-child(8) {
+	top: 53px;
+	left: 44px;
+	animation-delay: -575ms;
+		-o-animation-delay: -575ms;
+		-ms-animation-delay: -575ms;
+		-webkit-animation-delay: -575ms;
+		-moz-animation-delay: -575ms;
+}
+.cssload-tri:nth-child(9) {
+	top: 53px;
+	left: 58px;
+	animation-delay: -575ms;
+		-o-animation-delay: -575ms;
+		-ms-animation-delay: -575ms;
+		-webkit-animation-delay: -575ms;
+		-moz-animation-delay: -575ms;
+}
+
+
+@keyframes  cssload-pulse {
+	0% {
+		opacity: 1;
+	}
+	16.666% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-o-keyframes cssload-pulse {
+	0% {
+		opacity: 1;
+	}
+	16.666% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes cssload-pulse {
+	0% {
+		opacity: 1;
+	}
+	16.666% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes cssload-pulse {
+	0% {
+		opacity: 1;
+	}
+	16.666% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes cssload-pulse {
+	0% {
+		opacity: 1;
+	}
+	16.666% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+</style>    <main class="main catalog">
+        
+        <!--== Breadcrumbs -->
+        <div class="breadcrumbs_catalog_block">
+            <div class="breadcrumbs">
+    <div class="container">
+        <nav class="breadcrumbs__nav">
+            <ol class="breadcrumbs__list">
+
+                <li class="breadcrumbs__item">
+                    <a href="index.html" class="breadcrumbs__link" title="Главная">Главная</a></li>
+
+                <li class="breadcrumbs__item">
+                    <a href="catalog.1.html" class="breadcrumbs__link">Каталог недвижимости</a></li>
+                  
+                                                    <li class="breadcrumbs__item current">
+                    Недвижимость в Алании
+            </ol>
+        </nav>
+    </div>    
+</div>        </div>
+
+        <!--== Catalog Page Header -->
+        <header class="catalog__header">
+            <div class="container">
+
+                <div class="catalog__heading">
+                    <h1 class="catalog__heading-title ">Недвижимость в Алании</h1>
+                    <a href="favorites.html" class="catalog__wishlist">Избранное <span class="catalog__wishlist-num">0</span></a>
+                </div>
+
+                <div class="filter">
+
+    <div class="filter__header">
+        <div class="filter__categorie-list">
+                            <button class="filter__categorie-item " data-status="sale">Продажа</button>
+                            <button class="filter__categorie-item " data-status="rent">Аренда</button>
+                            <button class="filter__categorie-item " data-status="commercial">Коммерческая недвижимость</button>
+                            <button class="filter__categorie-item " data-status="sold">Проданные объекты</button>
+                    </div>
+    </div>
+
+    <div class="filter__main">
+        <form class="filter__form filter-form" autocomplete="off" action="catalog.1.html">
+
+            <div class="filter-form__items">
+
+                <div class="filter-form__item">
+                    <select class="select js-filter-select js-filter-select-custom" name="type" data-placeholder="Все объекты">
+                        <option selected value="">Все объекты</option>
+                                                    <option  value="kvartira">Квартира</option>
+                                                
+                    </select>
+                </div>
+
+                <div class="filter-form__item">
+                    <select class="select js-filter-select js-filter-select-custom" name="district" data-placeholder="Все районы">
+                        <option selected value="">Все районы</option>
+                                                    <option  value="makhmutlar">Махмутлар</option>
+                                            </select>
+                </div>
+
+                <div class="filter-form__item">
+                    <select class="select js-filter-select js-filter-select-custom" name="layout" data-placeholder="Все планировки">
+                        <option selected value="">Все планировки</option>
+                                                    <option  value="1-1">1+1</option>
+                                            </select>
+                </div>
+
+                <div class="filter-form__item">
+                    <input type="text" id="filter-form__price-from"  class="filter-form__input input" value="" placeholder="от, EUR">
+                </div>
+
+                <div class="filter-form__item">
+                    <input type="text" id="filter-form__price-to" class="filter-form__input input" value="" placeholder="до, EUR">
+                </div>
+
+                <div class="filter-form__item">
+                    <!-- <select class="select js-filter-select" data-placeholder="ID объекта">
+                        <option value=""></option>
+                        <option value="Все объекты">Все объекты</option>
+                        <option value="Объект 1" class="">Объект 1</option>
+                        <option value="Объект 2" class="">Объект 2</option>
+                        <option value="Объект 3" class="">Объект 3</option>
+                    </select> -->
+                    <input type="text" id="filter-form__ID" class="filter-form__input input js-input-id" value="" placeholder="ID объекта">
+                </div>
+
+            </div>
+
+            <button type="submit" class="filter-form__btn btn_primary">Поиск</button>
+
+        </form>
+    </div>
+</div>
+
+                <div class="catalog__options">
+                    <div class="total-items">
+                        <span class="total-items__text">Найдено объектов:</span>
+                        <span class="total-items__count">1</span>
+                    </div>
+
+                    <div class="sorting-items">
+                        <span class="sorting-items__text">Сортировать</span>
+                        <span class="sorting-items__select select_theme">
+                            <select class="select js-filter-select sort-select">
+                                
+                                <option selected value="">от новых к старым</option>
+                                <option  value="older">от старых к новым</option>
+                                <option  value="increase">по возрастанию цены</option>
+                                <option  value="decrease">по убыванию цены</option>
+                            </select>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!--== Catalog Grid -->
+        <div class="catalog__grid prod-grid">
+            <div class="container">
+                <div class="prod-grid__items">
+                    <div class="prod-grid__item">
+    <div class="product-card">
+
+    <div class="product-card__media">
+        <a href="property/kvartira-u-moorya.html" class="product-card__media-link" >
+            <img src="storage/3/conversions/tumblr_nh5uylRH6n1ti359do1_1280-thumb.jpg" alt="Product Thumbnail">
+            <span class="product-card__overlay">
+                <svg class="icon-foreign">
+                    <use xlink:href="assets/img/symbol/sprite.svg#icon-foreign"></use>
+                </svg>
+            </span>     
+        </a>
+        <div class="product-card__wishlist">
+            <button class="product-card__wishlist-btn js-wishlist-btn  " data-id="1">
+                <svg class="icon-star">
+                    <use xlink:href="assets/img/symbol/sprite.svg#icon-star"></use>
+                </svg>
+            </button>
+        </div>
+                    <div class="product-card__badget">
+                <span class="product-card__badget-text">
+                    Горячее предложение
+                </span>
+            </div>
+            </div>
+
+    <div class="product-card__content">
+        <div class="product-card__title">
+            <a href="property/kvartira-u-moorya.html" class="product-card__title-link" >Квартира у мооря</a>
+        </div>
+
+        <div class="product-card__location">Аланья, Махмутлар</div>
+
+        <ul class="product-card__features-list">
+            <li class="product-card__features-item">
+                <span class="product-card__features-icon">
+                    <svg class="icon-bead">
+                        <use xlink:href="assets/img/symbol/sprite.svg#icon-bead"></use>
+                    </svg>
+                </span>
+                <span class="product-card__features-text">1+1</span>
+            </li>
+            <li class="product-card__features-item">
+                <span class="product-card__features-icon">
+                    <svg class="icon-square">
+                        <use xlink:href="assets/img/symbol/sprite.svg#icon-square"></use>
+                    </svg>
+                </span>
+                <span class="product-card__features-text">200 м2</span>
+            </li>
+        </ul>
+
+        <div class="product-card__actions">
+            
+            
+            <div class="product-card__price  product-card__price_sale">
+                                    <span class="product-card__price-pref">от</span>
+                                180000
+            </div>
+            <div class="product-card__currency">
+                <select class="product-card__select select js-prod-curr">
+                    <option 
+                        data-price="180000"
+                        selected 
+                        value="EUR"
+                        >EUR</option>
+                    <option 
+                        data-price="180000"
+                         
+                        value="USD"
+                        >USD</option>
+                    
+                </select>
+            </div>
+            <div class="product-card__id">ID: 2222</div>
+        </div>
+        
+    </div>
+
+</div></div>
+                </div>
+            </div>
+        </div>
+
+        <!--== Pagination -->
+        <div class="pagination-block">
+                    </div>
+
+
+        <!--== Page Text Block -->
+        
+
+    </main>
+
+    <div id="m-backcall" class="modal modal-backcall mfp-hide">
+    <div class="modal___container">
+
+        <header class="modal__header modal-header">
+            <div class="modal-header__title">Перезвоните мне</div>
+            <div class="modal-header__text">
+                Для получения подробной информации заполните форму
+                и наш менеджер свяжется с Вами в ближайшее время
+            </div>
+        </header>
+
+        <div class="modal__body">
+
+            <form class="modal__form form js-validate" autocomplete="off" method="POST" action="http://t73.art-sites.org/mail">
+                <input type="hidden" name="_token" value="6iDdFKzcB6LrHX1yZF44oabUoofZchTRl9MVWvBT">                <div class="form__row">
+                    <div class="input-group">
+                        <span class="input-group__icon">
+                            <svg class="icon-user">
+                                <use xlink:href="assets/img/symbol/sprite.svg#icon-user"></use>
+                            </svg>
+                        </span>
+                        <input class="input" name="name" type="text" placeholder="Ваше Имя" required minlength="3">
+                    </div>
+                </div>
+
+                <div class="form__row">
+                    <div class="input-group">
+                        <span class="input-group__icon">
+                            <svg class="icon-phone">
+                                <use xlink:href="assets/img/symbol/sprite.svg#icon-phone"></use>
+                            </svg>
+                        </span>
+                        <input class="input" name="phone" type="text" placeholder="Ваш телефон" required digits="true" minlength="8">
+                    </div>
+                </div>
+
+                <div class="form__row textarea-row">
+                    <div class="input-group">
+                        <span class="input-group__icon">
+                            <svg class="icon-pen">
+                                <use xlink:href="assets/img/symbol/sprite.svg#icon-pen"></use>
+                            </svg>
+                        </span>
+                        <textarea class="textarea" name="text" placeholder="Пожалуйста, напишите вопросы, которые Вас интересуют"></textarea>
+                    </div>
+                </div>
+
+                <button class="btn_primary" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <button class="modal__close mfp-close" aria-label="Close">
+        <svg class="icon-close">
+            <use xlink:href="assets/img/symbol/sprite.svg#icon-close"></use>
+        </svg>
+    </button>
+</div>    <div id="m-tour" class="modal modal-tour mfp-hide">
+    <div class="modal___container">
+
+        <header class="modal__header modal-header">
+            <div class="modal-header__title">Заказать ознакомительный тур</div>
+            <div class="modal-header__text">
+                Для получения подробной информации заполните форму
+                и наш менеджер свяжется с Вами в ближайшее время
+            </div>
+        </header>
+
+        <div class="modal__body">
+
+            <form class="modal__form form js-validate" autocomplete="off" method="POST" action="http://t73.art-sites.org/mail">
+                <input type="hidden" name="_token" value="6iDdFKzcB6LrHX1yZF44oabUoofZchTRl9MVWvBT">                <div class="form__row">
+                    <div class="input-group">
+                        <span class="input-group__icon">
+                            <svg class="icon-user">
+                                <use xlink:href="assets/img/symbol/sprite.svg#icon-user"></use>
+                            </svg>
+                        </span>
+                        <input class="input" name="name" type="text" placeholder="Ваше Имя" required minlength="3">
+                    </div>
+                </div>
+
+                <div class="form__row">
+                    <div class="input-group">
+                        <span class="input-group__icon">
+                            <svg class="icon-email">
+                                <use xlink:href="assets/img/symbol/sprite.svg#icon-mail_v2"></use>
+                            </svg>
+                        </span>
+                        <input class="input" name="email" type="email" placeholder="Ваш email" required>
+                    </div>
+                </div>
+
+                <div class="form__row">
+                    <div class="input-group">
+                        <span class="input-group__icon">
+                            <svg class="icon-phone">
+                                <use xlink:href="assets/img/symbol/sprite.svg#icon-phone"></use>
+                            </svg>
+                        </span>
+                        <input class="input" name="phone" type="text" placeholder="Ваш телефон" required digits="true" minlength="8">
+                    </div>
+                </div>
+
+                <div class="form__row textarea-row">
+                    <div class="input-group">
+                        <span class="input-group__icon">
+                            <svg class="icon-pen">
+                                <use xlink:href="assets/img/symbol/sprite.svg#icon-pen"></use>
+                            </svg>
+                        </span>
+                        <textarea class="textarea" name="text" placeholder="Пожалуйста, напишите вопросы, которые Вас интересуют"></textarea>
+                    </div>
+                </div>
+
+                <button class="btn_primary" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <button class="modal__close mfp-close" aria-label="Close">
+        <svg class="icon-close">
+            <use xlink:href="assets/img/symbol/sprite.svg#icon-close"></use>
+        </svg>
+    </button>
+</div>
+
+    <!--== Footer -->
+<footer class="site__footer footer">
+    <div class="footer__main footer-main">
+        <div class="container">
+            <div class="footer-main__inner">
+                <div class="row">
+                    <div class="col-lg-2 col-md-5 offset-md-1 offset-lg-0 order-1">
+                        <div class="footer-main__site-logo site-logo">
+                            <a href="index.html" class="site-logo__link">
+                                <img class="site-logo__image" src="assets/img/theme/guzel-brand.svg" alt="Guzel Logo" width="142" >
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 offset-md-1 offset-lg-0 order-2 order-md-3 order-lg-2">
+                        <address class="company-address">
+                            Mahmutlar Mahallesi Barbaros Caddesi 256. Sokak Çakır Residence A blok 07400 Alanya - Antalya -Turkey
+                        </address>
+
+                        <div class="social-media">
+                            <ul class="social-media__list">
+                                <li class="social-media__item">
+                                    <a href="catalog_hot.html#" target="blank">
+                                        <svg class="social-media__icon icon-facebook">
+                                            <use xlink:href="assets/img/symbol/sprite.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-media__item">
+                                    <a href="catalog_hot.html#" target="blank">
+                                        <svg class="social-media__icon icon-youtube">
+                                            <use xlink:href="assets/img/symbol/sprite.svg#icon-youtube"></use>
+                                        </svg>
+                                    </a>    
+                                </li>
+                                <li class="social-media__item">
+                                    <a href="catalog_hot.html#" target="blank">
+                                        <svg class="social-media__icon icon-vk">
+                                            <use xlink:href="assets/img/symbol/sprite.svg#icon-vk"></use>
+                                        </svg>
+                                    </a>    
+                                </li>
+                                <li class="social-media__item">
+                                    <a href="catalog_hot.html#" target="blank">
+                                        <svg class="social-media__icon icon-instagram">
+                                            <use xlink:href="assets/img/symbol/sprite.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-md-1 offset-lg-0 col-md-5 order-md-2 order-3 order-lg-3">
+                        <div class="email-block">
+                            <svg class="email-block__icon icon-mail">
+                                <use xlink:href="assets/img/symbol/sprite.svg#icon-mail"></use>
+                            </svg>
+                            <a href="mailto:info@guzelestate.ru" class="email-block__mail-addr">info@guzelestate.ru</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-md-1 offset-lg-0 col-md-5 order-4">
+                        <div class="phones-block">
+                            <ul class="phones-block__list">
+                                <li class="phones-block__item">
+                                    <a class="phones-block__link" href="tel:+905305219399">
+                                        <span class="country-flag">
+                                            <img class="country-flag__icon" src="assets/img/theme/flags/turkey.svg" alt="Turkey Flag" width="30">
+                                        </span>
+                                        <svg class="icon-whatsapp">
+                                            <use xlink:href="assets/img/symbol/sprite.svg#icon-whatsapp"></use>
+                                        </svg>
+                                        +90 530 5219399
+                                    </a>
+                                </li>
+
+                                <li class="phones-block__item">
+                                    <a class="phones-block__link" href="tel:+380999999999">
+                                        <span class="country-flag">
+                                            <img class="country-flag__icon" src="assets/img/theme/flags/ukraine.svg" alt="Ukraine Flag" width="30">
+                                        </span>
+                                        <svg class="icon-whatsapp">
+                                            <use xlink:href="assets/img/symbol/sprite.svg#icon-whatsapp"></use>
+                                        </svg>
+                                        +380 99 999 9999
+                                    </a>
+                                </li>
+
+                                <li class="phones-block__item">
+                                    <a class="phones-block__link" href="tel:+79999999999">
+                                        <span class="country-flag">
+                                            <img class="country-flag__icon" src="assets/img/theme/flags/russia.svg" alt="Russia Flag" width="30">
+                                        </span>
+                                        <svg class="icon-whatsapp">
+                                            <use xlink:href="assets/img/symbol/sprite.svg#icon-whatsapp"></use>
+                                        </svg>
+                                        +79 99 999 9999
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-bottom__item">
+                    <div class="copyrights">Copyright 2020. Guzel Estate</div>
+                </div>
+                <div class="col-md-4 footer-bottom__item">
+                    <div class="owner">
+                        <span class="owner__text">Real Estate Agency by</span>
+                        <img src="assets/img/theme/owner-logo.png" alt="Guzel" width="50">
+                    </div>
+                </div>
+                <div class="col-md-4 footer-bottom__item">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+</div>
+<!-- site end -->
+
+<!--== ScrollTop -->
+<button class="scrolltop">
+    <svg class="scrolltop__icon">
+        <use xlink:href="assets/img/symbol/sprite.svg#icon-arrow"></use>
+    </svg>
+</button>
+<!--== JS JQuery -->
+<!-- <script src="assets/js/plugins/jquery-3.4.1.min.js"></script> -->
+<script src="js/app.js"></script>
+
+<!--== JS Plugins -->
+<script src="assets/js/plugins/svg4everybody.min.js"></script>
+<script src="assets/js/plugins/select2.full.min.js"></script>
+<script src="assets/js/plugins/swiper.min.js"></script>
+<script src="assets/js/plugins/gsap.min.js"></script>
+<script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+<script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/plugins/jquery.validate.min.js"></script>
+<script src="assets/js/plugins/localization/messages_ru.min.js"></script>
+<script src="assets/js/plugins/imask.js"></script>
+<script src="assets/js/plugins/lightgallery-all.min.js"></script>
+<script src="assets/js/plugins/owl.carousel.min.js"></script>
+<script src="assets/js/plugins/js.cookie.min.js"></script>
+
+<!--== JS Vendor -->
+<!-- <script src="assets/js/vendor.min.js"></script> -->
+
+<!--== JS Scripts -->
+<script src="assets/js/script.js"></script>
+
+<script src="assets/back/favorites.js"></script>
+<script src="assets/back/mail.js"></script>
+
+<script src="assets/js/filter.js"></script>
+
+</body>
+</html>
+
+    
+    
